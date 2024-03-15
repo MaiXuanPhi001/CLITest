@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Container from './src/navigations/Container'
-import Home from './src/home/Home'
+import Home from './src/screens/home/Home'
 
 const App = () => {
   return (

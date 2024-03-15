@@ -1,13 +1,14 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { screens } from '../constants/screens'
+import { screens } from '../../constants/screens'
 import { useNavigation } from '@react-navigation/native'
 
 const Home = () => {
     const navigation: any = useNavigation()
 
     const data = [
-        { id: 0, name: 'Tailwind', screen: screens.TAILWIND }
+        { id: 0, name: 'Tailwind', screen: screens.TAILWIND },
+        { id: 1, name: 'Column Chart', screen: screens.COLUMN_CHART_APP }
     ]
     return (
         <View className="bg-red-300">
