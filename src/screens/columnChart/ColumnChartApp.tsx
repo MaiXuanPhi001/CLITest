@@ -6,10 +6,10 @@ const ColumnChartApp = () => {
   const { width } = Dimensions.get('screen')
 
   const data = [
-    { value: 200, title: 'Marketing', content: '10 viec lam', color: 'white' },
-    { value: 20, title: 'Marketing', content: '15 viec lam', color: 'blue' },
-    { value: 50, title: 'Marketing', content: '20 viec lam', color: 'green' },
-    { value: 100, title: 'Marketing', content: '20 viec lam', color: 'red' },
+    { value: 16000, title: 'Marketing', content: '10 viec lam', color: 'white' },
+    { value: 8575, title: 'Marketing', content: '15 viec lam', color: 'blue' },
+    { value: 5690, title: 'Marketing', content: '20 viec lam', color: 'green' },
+    { value: 5321, title: 'Marketing', content: '20 viec lam', color: 'red' },
   ]
 
   return (
